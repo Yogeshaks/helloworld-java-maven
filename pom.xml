@@ -41,12 +41,14 @@
 <distributionManagement>
     <repository>
         <id>deployment</id>
-        <name>deployment</name>
+        <username>deployment</username>
+	<password>deployment123</password>
         <url>http://13.235.0.95:8081/repository/mph/</url>
     </repository>
     <snapshotRepository>
-        <id>sym</id>
-        <name>snapshot softx</name>
+        <id>deployment</id>
+        <username>deployment</username>
+	<password>deployment123</password>
         <url>http://13.235.0.95:8081/repository/mphsnap/</url>
     </snapshotRepository>
 </distributionManagement>
