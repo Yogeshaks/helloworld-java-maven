@@ -42,12 +42,12 @@
     <repository>
         <id>deployment</id>
         <name>deployment</name>
-        <url>http://13.235.0.95:8081/repository/mph/</url>
+        <url>http://13.235.0.95:8081/repository/mph</url>
     </repository>
     <snapshotRepository>
         <id>deployment</id>
         <name>deployment</name>
-        <url>http://13.235.0.95:8081/repository/mphsnap/</url>
+        <url>http://13.235.0.95:8081/repository/mphsnap</url>
     </snapshotRepository>
 </distributionManagement>
 
