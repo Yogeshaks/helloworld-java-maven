@@ -1,6 +1,9 @@
-<mirror>
-      <id>central</id>
-      <name>Maven Repository Manager running on repo.mycompany.com</name>
-      <url>http://13.235.0.95:8081/artifactory/list/group/</url>
-      <mirrorOf>*</mirrorOf>
-    </mirror>
+
+
+<servers>
+        <server>
+            <id>http://13.235.0.95:8081</id>
+            <username>deployment</username>
+            <password>deployment123</password>
+        </server>
+</servers>
